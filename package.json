@@ -1,0 +1,17 @@
+{
+  "name": "tp-node-mongo",
+  "version": "1.0.0",
+  "description": "TP1 - Ma première API REST avec Node.js, Express et MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.6",
+    "express": "^5.2.1",
+    "mongoose": "^9.11.1"
+  }
+}
